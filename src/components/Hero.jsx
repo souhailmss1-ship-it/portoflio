@@ -72,7 +72,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          <span className="text-sm text-text-secondary">Available for internships</span>
+          <span className="text-sm text-text-secondary">Open to opportunities</span>
         </motion.div>
 
         {/* Animated Name */}
@@ -127,13 +127,13 @@ export default function Hero() {
             href="#projects"
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(0, 212, 255, 0.3)' }}
             whileTap={{ scale: 0.95 }}
-            className="group flex items-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-accent-cyan to-accent-blue text-dark-900 font-semibold text-base transition-all duration-300"
+            className="group flex items-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-accent-cyan to-accent-purple text-dark-900 font-semibold text-base transition-all duration-300"
           >
             View Projects
             <ArrowDown size={18} className="group-hover:translate-y-0.5 transition-transform" />
           </motion.a>
           <motion.a
-            href="#contact"
+            href="mailto:souhailmss1@gmail.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group flex items-center gap-2 px-8 py-3.5 rounded-full border border-glass-border text-text-primary font-semibold text-base glass hover:border-accent-cyan/50 transition-all duration-300"

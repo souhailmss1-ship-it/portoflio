@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react';
 const socialLinks = [
   { name: 'GitHub', icon: Github, href: '#', hoverColor: 'hover:text-white' },
   { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/public-profile/settings', hoverColor: 'hover:text-blue-400' },
-  { name: 'Email', icon: Mail, href: 'mailto:souhail@example.com', hoverColor: 'hover:text-accent-cyan' },
+  { name: 'Email', icon: Mail, href: 'mailto:souhailmss1@gmail.com', hoverColor: 'hover:text-accent-cyan' },
 ];
 
 export default function Footer() {
@@ -34,7 +34,7 @@ export default function Footer() {
             I'm always open to new opportunities and collaborations. Feel free to reach out!
           </p>
           <motion.a
-            href="mailto:souhail@example.com"
+            href="mailto:souhailmss1@gmail.com"
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(0, 212, 255, 0.3)' }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-accent-cyan to-accent-purple text-dark-900 font-semibold text-base"

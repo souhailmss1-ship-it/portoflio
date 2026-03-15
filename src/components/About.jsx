@@ -53,7 +53,7 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-text-primary">Goal-Driven</h3>
-                    <p className="text-text-muted text-sm">Seeking internship opportunities</p>
+                    <p className="text-text-muted text-sm">Building impactful projects</p>
                   </div>
                 </div>
 
@@ -89,10 +89,9 @@ export default function About() {
             </p>
             <p className="text-text-secondary text-lg leading-relaxed">
               I'm currently diving deep into <span className="text-accent-cyan font-semibold">LLMs, neural networks, and data analytics</span>,
-              while seeking <span className="text-accent-cyan font-semibold">internship opportunities</span> where
-              I can contribute my skills, learn from industry professionals, and grow as a
-              developer. I thrive in collaborative environments and am passionate about
-              writing clean, maintainable code.
+              constantly pushing myself to learn and build more. I thrive in collaborative
+              environments and am passionate about writing clean, maintainable code that
+              makes a real impact.
             </p>
             <p className="text-text-secondary text-lg leading-relaxed">
               When I'm not coding, you'll find me training models, analyzing data patterns,
@@ -101,7 +100,7 @@ export default function About() {
             </p>
 
             <motion.a
-              href="#contact"
+              href="mailto:souhailmss1@gmail.com"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-accent-purple to-accent-pink text-white font-semibold text-sm mt-4"
